@@ -193,10 +193,10 @@ p.quote:nth-child(2){
   opacity: 1;
   z-index: 500;
 }
-/*
+
 .jobs{
-  background: #fff url(https://raw.githubusercontent.com/hemantparashar/images/quote-cards/stevejobs-s.jpg);
-}
+  background: #fff url(img/rashi.jpeg);
+}/*
 .zuck{
   background: #fff url(https://raw.githubusercontent.com/hemantparashar/images/quote-cards/markzuck-s.jpg);
 }
@@ -225,8 +225,8 @@ p.quote:nth-child(2){
   opacity: 1;
 }
 .jobs-bg{
-  /*background: #fff url(https://raw.githubusercontent.com/hemantparashar/images/quote-cards/stevejobs-bg.jpg);
-  */background-size: cover;
+  background: #fff url(img/rashibg.jpeg);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
