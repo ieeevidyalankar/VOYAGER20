@@ -6,6 +6,7 @@ $(document).ready(function() {
     }, 1000);
  
 });
+/*
 var sliderTeam = (function(document, $) {
   
   'use strict';
@@ -135,3 +136,4 @@ $(window).load(function(){
   'use strict';
   sliderTeam.init();
 });
+*/
