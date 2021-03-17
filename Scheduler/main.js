@@ -28,7 +28,7 @@
         },
         {
           range: ["March 17th 2021, 09:00 pm", "March 20th 2021, 08:59 pm"],
-          display: { h: 9, m: "", a: "am", date: "20th March" },
+          display: { h: 2, m: "", a: "pm", date: "20th March" },
           desc: "Home Automation Workshop",
         },
         {
