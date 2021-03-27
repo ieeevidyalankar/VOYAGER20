@@ -38,7 +38,7 @@
         },
         {
           range: ["March 27th 2021, 09:00 pm", "April 3rd 2021, 08:59 pm"],
-          display: { h: 9, m: "", a: "am", date: "28th March" },
+          display: { h: 2, m: "", a: "pm", date: "28th March" },
           desc: "P5.js Workshop",
         },
         {
