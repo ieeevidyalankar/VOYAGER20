@@ -9,17 +9,17 @@
         {
           range: ["February 27th 2021, 09:00 am", "March 3rd 2021, 08:59 pm"],
           display: { h: 6, m: ":30", a: "pm", date: "3rd March" },
-          desc: "Webseries quiz",
+          desc: "WebSeries Quiz",
         },
         {
           range: ["March 3rd 2021, 09:00 pm", "March 6th 2021, 08:59 pm"],
           display: { h: 4, m: "", a: "pm", date: "6th March" },
-          desc: "Machine Learning Interpretation (Webinar)",
+          desc: "Machine Learning Interpretation Webinar",
         },
         {
           range: ["March 6th 2021, 09:00 pm", "March 13th 2021, 08:59 pm"],
           display: { h: 4, m: "", a: "pm", date: "13th March" },
-          desc: "CyberSecurity (Webinar)",
+          desc: "CyberSecurity Webinar",
         },
         {
           range: ["March 13th 2021, 09:00 pm", "March 17th 2021, 08:59 pm"],
@@ -28,28 +28,28 @@
         },
         {
           range: ["March 17th 2021, 09:00 pm", "March 20th 2021, 08:59 pm"],
-          display: { h: 9, m: "", a: "am", date: "20th March" },
-          desc: "Home Automation",
+          display: { h: 2, m: "", a: "pm", date: "20th March" },
+          desc: "Home Automation Workshop",
         },
         {
           range: ["March 20th 2021, 09:00 pm", "March 27th 2021, 08:59 pm"],
           display: { h: 10, m: "", a: "am", date: "27th March" },
-          desc: "Shark Tank",
+          desc: "Shark Tank Competition",
         },
         {
           range: ["March 27th 2021, 09:00 pm", "March 28th 2021, 08:59 pm"],
-          display: { h: 9, m: "", a: "am", date: "28th March" },
-          desc: "P5.js",
+          display: { h: 2, m: "", a: "pm", date: "28th March" },
+          desc: "P5.js Workshop",
         },
         {
           range: ["March 28th 2021, 08:59 pm", "April 3rd 2021, 08:59 pm"],
           display: { h: 2, m: "", a: "pm", date: "3rd April" },
-          desc: "TYC Competition",
+          desc: "Tinker Your Circuit Competition",
         },
         {
           range: ["April 3rd 2021, 08:59 pm", "April 5th 2021, 00:00 am"],
           display: { h: 2, m: "", a: "pm", date: "4th April" },
-          desc: "CodeAger",
+          desc: "CodeAger Competition",
         },
       ],
     },
