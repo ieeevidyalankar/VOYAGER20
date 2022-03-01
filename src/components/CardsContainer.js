@@ -78,13 +78,13 @@ const CardsContainer = () => {
                 src={item.img}
                 alt=""
               />
-              <Link
+              <p
                 className="card-title"
-                to={item.url}
+                // to={item.url}
                 rel="noopener noreferrer"
               >
                 {item.title}
-              </Link>
+              </p>
             </div>
           );
         })}

@@ -16,10 +16,10 @@ const App = () => {
     <BrowserRouter>
       <div className="app">
         <Routes>
-          <Route path="workshop" element={<Workshop />} />
+          {/* <Route path="workshop" element={<Workshop />} />
           <Route path="tech-talks" element={<TechTalks />} />
           <Route path="competitions" element={<Competitions />} />
-          <Route path="fun-events" element={<FunEvents />} />
+          <Route path="fun-events" element={<FunEvents />} /> */}
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
@@ -33,7 +33,7 @@ const Home = () => {
       <Header />
       <About />
       <CardsContainer />
-      <Timeline />
+      {/* <Timeline /> */}
       <Footer />
     </div>
   );
