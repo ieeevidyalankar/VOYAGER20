@@ -38,7 +38,7 @@ const Footer = () => {
           <Linkedin />
         </a>
       </div>
-      <p> © 2020-21 CopyRight:</p>
+      <p> © 2021-22 CopyRight:</p>
       <p>IEEE-VIT Student Branch</p>
       <p> CODE OF CONDUCT</p>
     </div>
