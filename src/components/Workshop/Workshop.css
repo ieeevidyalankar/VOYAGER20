@@ -1,0 +1,217 @@
+.work-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.workshop-comp {
+  padding-top: 70px;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: url(../../assets/blue.webp);
+  background-size: cover;
+}
+
+.workshop-comp > .leftbox {
+  width: 47%;
+  height: 100%;
+  padding: 3rem;
+  align-self: center;
+}
+
+.workshop-comp > .leftbox > .content {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2.5rem;
+  border-radius: 0.3rem;
+  transition: 0.5s;
+}
+
+.workshop-comp > .leftbox > .content:hover {
+  background: #0f4758;
+}
+
+.workshop-comp > .leftbox > .content > h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.leftbox > .content > p {
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.workshop-comp > .events {
+  /* position: relative; */
+  width: 47%;
+  height: 100%;
+  align-self: center;
+  box-sizing: border-box;
+}
+
+.workshop-comp > .events > ul {
+  margin: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.workshop-comp > .events > ul > li {
+  list-style: none;
+  background: #fff;
+  box-sizing: border-box;
+  height: 14rem;
+  border-radius: 0.3rem;
+  margin: 2rem 0;
+}
+
+.workshop-comp > .events > ul > li > .time {
+  position: relative;
+  padding: 20px;
+  background: #2c516e;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+
+  transition: 0.3s;
+}
+
+.workshop-comp > .events > ul > li:hover > .time {
+  /* background: #8221a8; */
+  background: #3477aa;
+  cursor: pointer;
+}
+
+.workshop-comp > .events > ul > li > .time > h2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Lato";
+  font-size: 60px;
+  line-height: 30px;
+}
+
+.workshop-comp > .events > ul > li > .time > h2 > span {
+  font-size: 30px;
+}
+
+.workshop-comp > .events > ul > li > .details {
+  padding: 20px;
+  background: #fff;
+  box-sizing: border-box;
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+.workshop-comp > .events > ul > li > .details > h3 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.workshop-comp > .events > ul > li > .details > p {
+  position: relative;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.workshop-comp > .events > ul > li > .details > a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+  color: #3477aa;
+  transition: 0.3s;
+  border-radius: 0.3rem;
+}
+
+.workshop-comp > .events > ul > li > .details > a:hover {
+  background-color: #0f4758;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+@media (max-width: 991px) {
+  .workshop-comp > {
+    height: 100%;
+    background-position: center;
+  }
+
+  .workshop-comp > .leftbox {
+    width: 100%;
+    height: auto;
+    float: none;
+    padding: 20px;
+  }
+
+  .workshop-comp > .events {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    float: none;
+  }
+
+  .workshop-comp > .leftbox .content {
+    padding: 20px;
+  }
+
+  .workshop-comp > .leftbox .content h1 {
+    font-size: 30px;
+  }
+
+  .workshop-comp > .events ul {
+    position: relative;
+    transform: translateY(0px);
+    padding: 0 20px 20px;
+  }
+
+  .workshop-comp > .events ul li {
+    height: auto;
+    background: rgba(225, 225, 225, 0.9);
+  }
+
+  .workshop-comp > .events ul li .time {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .workshop-comp > .events ul li .time h2 {
+    font-size: 1.2rem;
+  }
+
+  .workshop-comp > .events ul li .time h2 span {
+    font-size: 1rem;
+  }
+
+  .workshop-comp > .events ul li .details {
+    width: 100%;
+    float: none;
+    padding-left: 100px;
+    background: transparent;
+  }
+
+  .workshop-comp > .events ul li .details a {
+    padding: 5px 10px;
+  }
+}

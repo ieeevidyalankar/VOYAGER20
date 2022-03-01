@@ -1,0 +1,9 @@
+.tl-date-active {
+  color: #333;
+}
+
+@media only screen and (max-width: 1169px) {
+  .tl-date-active {
+    color: #fff;
+  }
+}
