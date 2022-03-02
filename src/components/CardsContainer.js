@@ -43,28 +43,6 @@ const CardsContainer = () => {
       AOS.init();
     }, 1000);
   }, []);
-  // useEffect(() => {
-  //   for (let i = 0; i < 4; i++) {
-  //     let el = document.querySelector(`#img${i}`);
-  //     gsap.fromTo(
-  //       el,
-  //       {
-  //         autoAlpha: 0,
-  //         scale: 0.5,
-  //       },
-  //       {
-  //         autoAlpha: 1,
-  //         duration: 1,
-  //         scale: 1,
-  //         ease: Power2.easeOut,
-  //         scrollTrigger: {
-  //           trigger: el,
-  //           toggleActions: "restart none none reset",
-  //         },
-  //       }
-  //     );
-  //   }
-  // }, []);
 
   return (
     <div className="cards">
@@ -85,6 +63,7 @@ const CardsContainer = () => {
               >
                 {item.title}
               </p>
+              <p className="card-coming-soon">Coming Soon</p>
             </div>
           );
         })}
