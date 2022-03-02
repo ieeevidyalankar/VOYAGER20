@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.af99fcb4.css",
-    "main.js": "/static/js/main.075c512b.js",
+    "main.css": "/static/css/main.706c53ab.css",
+    "main.js": "/static/js/main.c540446f.js",
     "static/js/787.989b75f7.chunk.js": "/static/js/787.989b75f7.chunk.js",
     "static/media/blue.webp": "/static/media/blue.238de91a8a37df997cba.webp",
-    "static/media/workshop.webp": "/static/media/workshop.5cce2cc0641f0316bbdc.webp",
     "static/media/fun.webp": "/static/media/fun.dac4698d24b8ebc839e0.webp",
     "static/media/ieee_logo.webp": "/static/media/ieee_logo.6e378934db430dc46f11.webp",
-    "static/media/tech-talk.webp": "/static/media/tech-talk.0b28cafa0b50e0b6b0a4.webp",
-    "static/media/fun-events.webp": "/static/media/fun-events.1cd6d25003bda54085b0.webp",
+    "static/media/tech-talk.webp": "/static/media/tech-talk.7a860b846360fe4423f0.webp",
+    "static/media/fun-events.webp": "/static/media/fun-events.da44836e0968af62de11.webp",
+    "static/media/workshop.webp": "/static/media/workshop.6062a2fec930f8f37877.webp",
     "static/media/speaker2.webp": "/static/media/speaker2.917e446912cff7e780d8.webp",
+    "static/media/competitions.webp": "/static/media/competitions.813500a28d67f03fdac0.webp",
     "static/media/speaker1.webp": "/static/media/speaker1.a26751a5649e7c10450a.webp",
-    "static/media/competitions.webp": "/static/media/competitions.23cd7b36ecdba602d6a6.webp",
     "static/media/funEvents.svg": "/static/media/funEvents.170ec9e7993d2749aae970d348804cb4.svg",
     "static/media/competition.svg": "/static/media/competition.e01f3388db8044dca1cb18b58e77dd52.svg",
     "static/media/webinar.svg": "/static/media/webinar.4bf4a70727c516d2e4a70821cf18d1f3.svg",
@@ -23,12 +23,12 @@
     "static/media/workshop.svg": "/static/media/workshop.e3cd19e4ad613033271a55ab9afc3224.svg",
     "static/media/menu.svg": "/static/media/menu.3dc61aae98d0bb202cf0746398312532.svg",
     "static/media/x.svg": "/static/media/x.9b4d25023d73b01564298a26712586c9.svg",
-    "main.af99fcb4.css.map": "/static/css/main.af99fcb4.css.map",
-    "main.075c512b.js.map": "/static/js/main.075c512b.js.map",
+    "main.706c53ab.css.map": "/static/css/main.706c53ab.css.map",
+    "main.c540446f.js.map": "/static/js/main.c540446f.js.map",
     "787.989b75f7.chunk.js.map": "/static/js/787.989b75f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af99fcb4.css",
-    "static/js/main.075c512b.js"
+    "static/css/main.706c53ab.css",
+    "static/js/main.c540446f.js"
   ]
 }
