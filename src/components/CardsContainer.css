@@ -75,8 +75,12 @@
     width: 100%;
   }
   .card-li > .card-title {
+    width: 90%;
     -webkit-text-stroke: 1.5px #fff;
     font-size: 8vw;
+  }
+  .card-li > .card-coming-soon {
+    font-size: 0.95rem;
   }
 }
 
@@ -89,7 +93,11 @@
     width: 100%;
   }
   .card-li > .card-title {
-    -webkit-text-stroke: 1.5px #fff;
+    width: 100%;
+    -webkit-text-stroke: 1px #fff;
     font-size: 10vw;
+  }
+  .card-li > .card-coming-soon {
+    font-size: 0.85rem;
   }
 }
