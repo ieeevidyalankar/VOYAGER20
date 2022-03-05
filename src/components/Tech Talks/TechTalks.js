@@ -48,7 +48,7 @@ const speakers = [
     img: navinsir,
     name: "Navin Manaswi",
     desc: "Chief Metaverse Officer",
-    topic: "Career and Future in XR VR",
+    topic: "Metaverse-Career and Future",
     date: "9th April, 2022",
     fb: "https://www.facebook.com/navin.manaswi.98",
     ln: "https://www.linkedin.com/in/navin-manaswi-1a708b8",
