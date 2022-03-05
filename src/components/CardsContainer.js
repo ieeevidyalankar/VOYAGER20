@@ -27,13 +27,13 @@ const CardsContainer = () => {
     {
       id: 3,
       title: "Fun Events",
-      url: "/fun-events",
+      url: "/funevents",
       img: funEvents,
     },
     {
       id: 4,
       title: "Tech Talks",
-      url: "/tech-talks",
+      url: "/techtalks",
       img: techTalk,
     },
   ];
