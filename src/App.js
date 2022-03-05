@@ -4,7 +4,7 @@ import About from "./components/About";
 import CardsContainer from "./components/CardsContainer";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter, HashRouter } from "react-router-dom";
 import Workshop from "./components/Workshop/Workshop";
 import TechTalks from "./components/Tech Talks/TechTalks";
 import Competitions from "./components/Competitions/Competitions";
@@ -12,8 +12,9 @@ import FunEvents from "./components/Fun Event/FunEvents";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className="app">
+    // <BrowserRouter>
+    <div className="app">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/workshop" element={<Workshop />} />
@@ -21,8 +22,9 @@ const App = () => {
           <Route path="/competitions" element={<Competitions />} />
           <Route path="/funevents" element={<FunEvents />} />
         </Routes>
-      </div>
-    </BrowserRouter>
+      </HashRouter>
+    </div>
+    // {/* </BrowserRouter> */}
   );
 };
 
