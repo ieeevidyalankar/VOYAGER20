@@ -65,7 +65,7 @@
   list-style: none;
   background: #fff;
   box-sizing: border-box;
-  height: 14rem;
+  height: 11rem;
   border-radius: 0.3rem;
   margin: 2rem 0;
 }
@@ -172,10 +172,11 @@
 
   .fun-comp > .leftbox .content {
     padding: 20px;
+    text-align: center;
   }
 
   .fun-comp > .leftbox .content h1 {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .fun-comp > .events ul {
@@ -213,5 +214,35 @@
 
   .fun-comp > .events ul li .details a {
     padding: 5px 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fun-comp > .events ul li .time {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border-radius: 0;
+  }
+  .fun-comp > .events > ul {
+    padding: 0.5rem;
+  }
+  .fun-comp > .events > ul > li > .details {
+    padding: 0.8rem;
+  }
+  .fun-comp > .events ul li .time h2 {
+    font-size: 0.9rem;
+  }
+  .fun-comp > .events ul li .time h2 span {
+    font-size: 0.8rem;
+  }
+  .fun-comp > .events ul li .details {
+    padding-left: 70px;
+  }
+  .fun-comp > .events ul li .details > h3 {
+    font-size: 1.1rem;
+  }
+  .fun-comp > .events ul li .details > p {
+    font-size: 0.9rem;
   }
 }

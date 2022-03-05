@@ -18,12 +18,7 @@ const Workshop = () => {
         <div className="leftbox">
           <div className="content">
             <h1>Workshop</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-              dignissimos veritatis dolorem commodi ipsam dolores a perferendis
-              unde tempora quis corporis labore iusto aperiam consectetur magnam
-              voluptates aspernatur, ab porro?
-            </p>
+            <p>Technology is the best when it brings people together!</p>
           </div>
         </div>
         <div className="events">
@@ -37,13 +32,13 @@ const Workshop = () => {
                 </h2>
               </div>
               <div className="details">
-                <h3>Workshop 1</h3>
+                <h3>Power Of CMD</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Eveniet dignissimos veritatis dolorem commodi ipsam dolores a
-                  perferendis
+                  In the workshop you will understand what is Command line and
+                  whats so special about it. We will learn shell script in a fun
+                  way by making games that run on the command prompt.
                 </p>
-                <a href="#">REGISTER</a>
+                {/* <a href="#">REGISTER</a> */}
               </div>
             </li>
 
@@ -56,13 +51,13 @@ const Workshop = () => {
                 </h2>
               </div>
               <div className="details">
-                <h3>Workshop 2</h3>
+                <h3>Stack Game Using Three.js</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Eveniet dignissimos veritatis dolorem commodi ipsam dolores a
-                  perferendis
+                  In this workshop we will learn Three.js which is a javascript
+                  library that helps us to add 3D objects in web. We will start
+                  from the basics and make a Stack game.
                 </p>
-                <a href="#">REGISTER</a>
+                {/* <a href="#">REGISTER</a> */}
               </div>
             </li>
           </ul>

@@ -34,7 +34,7 @@ const timelineElements = [
   },
   {
     id: 5,
-    title: "Computer Vision AI Webinar",
+    title: "Computer Vision Webinar",
     date: new Date("2022-03-27"),
     time: "Sunday, 6pm onwards",
     icon: <WebIcon />,
@@ -62,7 +62,7 @@ const timelineElements = [
   },
   {
     id: 9,
-    title: "XR VR AI Webinar",
+    title: "Metaverse: Career and Future Webinar",
     date: new Date("2022-04-09"),
     time: "Saturday, 3pm onwards",
     icon: <WebIcon />,

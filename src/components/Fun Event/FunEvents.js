@@ -37,7 +37,7 @@ const Workshop = () => {
                   Think Fast, Answer The Questions Faster And Win The Game! Show
                   The Power Of Your Knowledge.
                 </p>
-                <a href="#">REGISTER</a>
+                {/* <a href="#">REGISTER</a> */}
               </div>
             </li>
 
@@ -52,10 +52,10 @@ const Workshop = () => {
               <div className="details">
                 <h3>Into The Jumble Verse</h3>
                 <p>
-                  In Space,No One Can Hear You Clean. Into The Jumble Verse: Sci
-                  Fi Bingo, Jumbled Letters and Unique Numbers.
+                  In Space, No One Can Hear You Clean. Into The Jumble Verse:
+                  Sci Fi Bingo, Jumbled Letters and Unique Numbers.
                 </p>
-                <a href="#">REGISTER</a>
+                {/* <a href="#">REGISTER</a> */}
               </div>
             </li>
           </ul>

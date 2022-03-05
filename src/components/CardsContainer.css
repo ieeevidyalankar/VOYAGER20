@@ -32,7 +32,7 @@
   width: 50vw;
   object-fit: cover;
   position: relative;
-  filter: brightness(75%);
+  filter: brightness(90%);
 }
 
 .card-li > .card-title {
@@ -43,20 +43,20 @@
   z-index: 10;
   position: absolute;
   left: 50%;
-  top: 45%;
+  top: 50%;
   transform: translate(-50%, -50%);
   color: transparent;
   -webkit-text-stroke: 2px #fff;
   font-size: 5vw;
   /* mix-blend-mode: exclusion; */
-  /* cursor: pointer; */
+  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
-/* .card-li > .card-title:hover {
+.card-li > .card-title:hover {
   color: #fff;
-} */
-
+}
+/* 
 .card-li > .card-coming-soon {
   position: absolute;
   left: 50%;
@@ -64,7 +64,7 @@
   transform: translate(-50%, -50%);
   font-size: 1.2rem;
   color: #fff;
-}
+} */
 
 @media only screen and (max-width: 900px) {
   .cards-list > .card-li {

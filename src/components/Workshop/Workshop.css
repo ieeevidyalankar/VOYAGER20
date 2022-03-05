@@ -45,6 +45,8 @@
 .leftbox > .content > p {
   margin: 1rem 0 0;
   padding: 0;
+  font-size: 0.95rem;
+  line-height: 1;
 }
 
 .workshop-comp > .events {
@@ -65,7 +67,7 @@
   list-style: none;
   background: #fff;
   box-sizing: border-box;
-  height: 14rem;
+  height: 12rem;
   border-radius: 0.3rem;
   margin: 2rem 0;
 }
@@ -109,7 +111,7 @@
 }
 
 .workshop-comp > .events > ul > li > .details {
-  padding: 20px;
+  padding: 0.8rem;
   background: #fff;
   box-sizing: border-box;
   width: 70%;
@@ -160,7 +162,8 @@
     width: 100%;
     height: auto;
     float: none;
-    padding: 20px;
+    padding: 20px 0;
+    text-align: center;
   }
 
   .workshop-comp > .events {
@@ -213,5 +216,35 @@
 
   .workshop-comp > .events ul li .details a {
     padding: 5px 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .workshop-comp > .events ul li .time {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border-radius: 0;
+  }
+  .workshop-comp > .events > ul {
+    padding: 0.5rem;
+  }
+  .workshop-comp > .events > ul > li > .details {
+    padding: 0.8rem;
+  }
+  .workshop-comp > .events ul li .time h2 {
+    font-size: 0.9rem;
+  }
+  .workshop-comp > .events ul li .time h2 span {
+    font-size: 0.8rem;
+  }
+  .workshop-comp > .events ul li .details {
+    padding-left: 70px;
+  }
+  .workshop-comp > .events ul li .details > h3 {
+    font-size: 1.1rem;
+  }
+  .workshop-comp > .events ul li .details > p {
+    font-size: 0.9rem;
   }
 }

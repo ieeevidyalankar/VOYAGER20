@@ -23,9 +23,6 @@ const Competitions = () => {
           <div className="meta">
             <div className="photo" id="photo1"></div>
             <ul className="details">
-              {/* <li class="author">
-                  <a href="#">John Doe</a>
-                </li> */}
               <li className="date">March. 26, 2022</li>
             </ul>
           </div>
@@ -39,9 +36,9 @@ const Competitions = () => {
               in the form of a problem statement in which they have to build an
               entire startup model.
             </p>
-            <p className="read-more" id="read-more-1">
+            {/* <p className="read-more" id="read-more-1">
               <a href="#">Register</a>
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="blog-card alt">
@@ -52,19 +49,6 @@ const Competitions = () => {
                   <a href="#">Jane Doe</a>
                 </li> */}
               <li className="date">April. 10, 2022</li>
-              <li className="tags">
-                {/* <ul>
-                    <li>
-                      <a href="#">Learn</a>
-                    </li>
-                    <li>
-                      <a href="#">Code</a>
-                    </li>
-                    <li>
-                      <a href="#">JavaScript</a>
-                    </li>
-                  </ul> */}
-              </li>
             </ul>
           </div>
           <div className="description">
@@ -75,9 +59,9 @@ const Competitions = () => {
               budding as well as experiences programmers to test their skills
               and compete with others.
             </p>
-            <p className="read-more" id="read-more-2">
+            {/* <p className="read-more" id="read-more-2">
               <a href="#">Register</a>
-            </p>
+            </p> */}
           </div>
         </div>
         {/* </div> */}
