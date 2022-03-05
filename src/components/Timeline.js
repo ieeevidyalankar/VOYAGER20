@@ -33,7 +33,7 @@ const Timeline = () => {
               icon={el.icon}
             >
               <h3 className="vertical-timeline-element-title">{el.title}</h3>
-              <p className="vertical-timeline-element-subtitle">{el.time}</p>
+              {/* <p className="vertical-timeline-element-subtitle">{el.time}</p> */}
             </VerticalTimelineElement>
           );
         })}
