@@ -10,7 +10,7 @@ import arshsir from "../../assets/arsh_sir.webp";
 import fb from "../../assets/facebook.svg";
 import insta from "../../assets/instagram.svg";
 import ld from "../../assets/linkedin.svg";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const speakers = [
   {
@@ -67,9 +67,13 @@ const speakers = [
 
 const TechTalks = () => {
   const { pathname } = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    window.addEventListener("load", () => {
+      navigate("/");
+    });
   }, [pathname]);
   return (
     <>
