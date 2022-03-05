@@ -15,25 +15,25 @@ const CardsContainer = () => {
     {
       id: 1,
       title: "Competitions",
-      url: "/competitions",
+      url: "/#/competitions",
       img: competitions,
     },
     {
       id: 2,
       title: "Workshops",
-      url: "/workshop",
+      url: "/#/workshop",
       img: workshop,
     },
     {
       id: 3,
       title: "Fun Events",
-      url: "/funevents",
+      url: "/#/funevents",
       img: funEvents,
     },
     {
       id: 4,
       title: "Tech Talks",
-      url: "/techtalks",
+      url: "/#/techtalks",
       img: techTalk,
     },
   ];
