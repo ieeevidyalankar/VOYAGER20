@@ -1,6 +1,7 @@
 {
   "name": "voyager-2022",
-  "homepage": "/",
+  "publicPath": "/",
+  "historyApiFallback": true,
   "version": "0.1.0",
   "private": true,
   "dependencies": {
