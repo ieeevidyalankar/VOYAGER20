@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import gsap from "gsap";
@@ -46,7 +46,7 @@ const World = () => {
 
     //add to scene with group
     var group = new THREE.Group();
-    for (var i = 0; i < 20; i++) {
+    for (var i = 0; i < 25; i++) {
       var mesh = new THREE.Mesh(geometry, material);
       mesh.position.x = Math.random() * 1000 - 500;
       mesh.position.y = Math.random() * 1000 - 300;
@@ -225,7 +225,9 @@ const Header = () => {
         V<O3D />
         YAGER
       </div>
-      <World />
+      <Suspense fallback={null}>
+        <World />
+      </Suspense>
     </div>
   );
 };

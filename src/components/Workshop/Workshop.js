@@ -1,18 +1,14 @@
 import React, { useEffect } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 import "./Workshop.css";
 
 const Workshop = () => {
   const { pathname } = useLocation();
-  const navigate = useNavigate();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    window.addEventListener("load", () => {
-      navigate("/");
-    });
   }, [pathname]);
 
   return (

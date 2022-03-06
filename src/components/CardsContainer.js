@@ -8,8 +8,6 @@ import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// gsap.registerPlugin(ScrollTrigger);
-
 const CardsContainer = () => {
   const items = [
     {
@@ -66,18 +64,6 @@ const CardsContainer = () => {
             </div>
           );
         })}
-        {/* <li className="card-li">
-              <img
-                data-aos="zoom-in-right"
-                className="card-img"
-                id={`img1`}
-                src={workshop}
-                alt=""
-              />
-              <Link className="card-title" to="/workshop">
-                Workshop
-              </Link>
-            </li> */}
       </div>
     </div>
   );
