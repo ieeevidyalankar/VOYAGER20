@@ -46,7 +46,7 @@ const World = () => {
 
     //add to scene with group
     var group = new THREE.Group();
-    for (var i = 0; i < 25; i++) {
+    for (let i = 0; i < 25; i++) {
       var mesh = new THREE.Mesh(geometry, material);
       mesh.position.x = Math.random() * 1000 - 500;
       mesh.position.y = Math.random() * 1000 - 300;

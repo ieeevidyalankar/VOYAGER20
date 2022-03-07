@@ -26,7 +26,7 @@ const Workshop = () => {
             <li>
               <div className="time">
                 <h2>
-                  19
+                  19th
                   <br />
                   <span>MARCH</span>
                 </h2>
@@ -45,7 +45,7 @@ const Workshop = () => {
             <li>
               <div className="time">
                 <h2>
-                  02
+                  2nd
                   <br />
                   <span>APRIL</span>
                 </h2>

@@ -32,8 +32,23 @@ const Timeline = () => {
               }}
               icon={el.icon}
             >
-              <h3 className="vertical-timeline-element-title">{el.title}</h3>
-              {/* <p className="vertical-timeline-element-subtitle">{el.time}</p> */}
+              <h3 className="vertical-timeline-element-title">
+                {el.title}
+                {el.reg && <p style={{ height: "0.3rem", margin: 0 }}></p>}
+                {el.reg && (
+                  <a
+                    href={el.reg}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="vertical-timeline-element-link"
+                  >
+                    Register Here
+                  </a>
+                )}
+              </h3>
+              {el.time && (
+                <p className="vertical-timeline-element-subtitle">{el.time}</p>
+              )}
             </VerticalTimelineElement>
           );
         })}

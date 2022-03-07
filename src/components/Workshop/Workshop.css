@@ -102,12 +102,12 @@
   transform: translate(-50%, -50%);
   color: #fff;
   font-family: "Lato";
-  font-size: 60px;
+  font-size: 2rem;
   line-height: 30px;
 }
 
 .workshop-comp > .events > ul > li > .time > h2 > span {
-  font-size: 30px;
+  font-size: 1.7rem;
 }
 
 .workshop-comp > .events > ul > li > .details {

@@ -37,7 +37,13 @@ const Workshop = () => {
                   Think Fast, Answer The Questions Faster And Win The Game! Show
                   The Power Of Your Knowledge.
                 </p>
-                {/* <a href="#">REGISTER</a> */}
+                <a
+                  href="https://forms.gle/XjDMA6wx7825FHxw7"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  REGISTER
+                </a>
               </div>
             </li>
 

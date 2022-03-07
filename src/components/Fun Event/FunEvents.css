@@ -100,16 +100,16 @@
   transform: translate(-50%, -50%);
   color: #fff;
   font-family: "Lato";
-  font-size: 60px;
+  font-size: 2rem;
   line-height: 30px;
 }
 
 .fun-comp > .events > ul > li > .time > h2 > span {
-  font-size: 30px;
+  font-size: 1.7rem;
 }
 
 .fun-comp > .events > ul > li > .details {
-  padding: 20px;
+  padding: 0.8rem;
   background: #fff;
   box-sizing: border-box;
   width: 70%;
@@ -135,18 +135,19 @@
 .fun-comp > .events > ul > li > .details > a {
   display: inline-block;
   text-decoration: none;
-  padding: 0.2rem 1rem;
+  padding: 0.4rem 0.5rem;
   border: none;
-  margin-top: 15px;
-  font-size: 18px;
-  color: #3477aa;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  background-color: #2c516e;
+  color: white;
   transition: 0.3s;
   border-radius: 0.3rem;
 }
 
 .fun-comp > .events > ul > li > .details > a:hover {
-  background-color: #0f4758;
-  color: white;
+  background-color: #ddd;
+  color: #0f4758;
   border-radius: 0.3rem;
 }
 
@@ -213,7 +214,8 @@
   }
 
   .fun-comp > .events ul li .details a {
-    padding: 5px 10px;
+    padding: 0.3rem 0.4rem;
+    font-size: 0.9rem;
   }
 }
 
