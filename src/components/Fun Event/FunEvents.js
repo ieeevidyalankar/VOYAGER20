@@ -61,7 +61,13 @@ const Workshop = () => {
                   In Space, No One Can Hear You Clean. Into The Jumble Verse:
                   Sci Fi Bingo, Jumbled Letters and Unique Numbers.
                 </p>
-                {/* <a href="#">REGISTER</a> */}
+                <a
+                  href="https://forms.gle/N6LzcQ8gtcYmTRcE7"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  REGISTER
+                </a>
               </div>
             </li>
           </ul>

@@ -38,7 +38,13 @@ const Workshop = () => {
                   whats so special about it. We will learn shell script in a fun
                   way by making games that run on the command prompt.
                 </p>
-                {/* <a href="#">REGISTER</a> */}
+                <a
+                  href="https://forms.gle/rHwpjPKo1fh1k4Mi7"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  REGISTER
+                </a>
               </div>
             </li>
 
