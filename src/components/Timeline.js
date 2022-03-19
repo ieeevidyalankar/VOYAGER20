@@ -37,12 +37,12 @@ const Timeline = () => {
                 {el.reg && <p style={{ height: "0.3rem", margin: 0 }}></p>}
                 {el.reg && (
                   <a
-                    href={el.reg}
+                    href={el?.reg && el?.yt ? el?.yt : el?.reg}
                     target="_blank"
                     rel="noreferrer"
                     className="vertical-timeline-element-link"
                   >
-                    Register Here
+                    {el?.reg && el?.yt ? "Watch now" : "Register Here"}
                   </a>
                 )}
               </h3>

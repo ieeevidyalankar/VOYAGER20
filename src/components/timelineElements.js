@@ -18,6 +18,7 @@ const timelineElements = [
     time: "Saturday, 2pm onwards",
     icon: <WorkIcon />,
     reg: "https://forms.gle/rHwpjPKo1fh1k4Mi7",
+    yt: "https://youtu.be/2_x906nn5SM",
   },
   {
     id: 3,

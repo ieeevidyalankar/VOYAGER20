@@ -39,11 +39,11 @@ const Workshop = () => {
                   way by making games that run on the command prompt.
                 </p>
                 <a
-                  href="https://forms.gle/rHwpjPKo1fh1k4Mi7"
+                  href="https://youtu.be/2_x906nn5SM"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  REGISTER
+                  Watch now
                 </a>
               </div>
             </li>
