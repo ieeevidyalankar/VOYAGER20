@@ -36,9 +36,23 @@ const Competitions = () => {
               in the form of a problem statement in which they have to build an
               entire startup model.
             </p>
-            {/* <p className="read-more" id="read-more-1">
-              <a href="#">Register</a>
-            </p> */}
+            <p className="read-more" id="read-more-1">
+              <a
+                href="https://forms.gle/BDgmvreedwfLMovv9"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Register
+              </a>
+              <a
+                className="ins"
+                href="https://drive.google.com/file/d/15UZffsj3zhYUjHFYnEsiPcNJJBFkR16r/view?usp=drivesdk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Event Details
+              </a>
+            </p>
           </div>
         </div>
         <div className="blog-card alt">

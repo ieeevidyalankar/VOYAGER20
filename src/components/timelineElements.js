@@ -26,20 +26,20 @@ const timelineElements = [
     date: new Date("2022-03-20"),
     time: "Sunday, 4pm onwards",
     icon: <FunIcon />,
-    reg: "https://forms.gle/N6LzcQ8gtcYmTRcE7",
   },
   {
     id: 4,
     title: "Shark Tank",
     date: new Date("2022-03-26"),
-    // time: "Saturday, 6pm onwards",
+    time: "Saturday, 9.30am onwards",
     icon: <CompIcon />,
+    reg: "https://forms.gle/BDgmvreedwfLMovv9",
   },
   {
     id: 5,
     title: "Computer Vision Webinar",
     date: new Date("2022-03-27"),
-    // time: "Sunday, 6pm onwards",
+    time: "Sunday, 4pm onwards",
     icon: <WebIcon />,
   },
   {
