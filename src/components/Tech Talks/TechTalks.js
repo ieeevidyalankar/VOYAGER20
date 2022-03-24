@@ -22,6 +22,7 @@ const speakers = [
     date: "27th March, 2022",
     fb: "https://www.facebook.com/rapternmn",
     ln: "https://www.linkedin.com/in/naman-bhayani-9b183692",
+    reg: "https://forms.gle/e5cu8Aesg87Hib1B9",
   },
   {
     id: 2,
@@ -87,11 +88,19 @@ const TechTalks = () => {
                   <div className="event-topic">
                     <p>{speaker.topic}</p>
                     <p className="date">{speaker.date}</p>
-                    {/* <div className="buttons">
-          <div className="register-btn">
-            <button>Register Here</button>
-          </div>
-        </div> */}
+                    {speaker.reg && (
+                      <div className="buttons">
+                        <div className="register-btn">
+                          <a
+                            href={speaker.reg}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            Register Here
+                          </a>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </div>
                 <div className="icons">

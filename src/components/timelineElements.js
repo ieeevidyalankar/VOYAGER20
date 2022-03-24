@@ -41,12 +41,13 @@ const timelineElements = [
     date: new Date("2022-03-27"),
     time: "Sunday, 4pm onwards",
     icon: <WebIcon />,
+    reg: "https://forms.gle/e5cu8Aesg87Hib1B9",
   },
   {
     id: 6,
     title: "Stack game using Three.js",
     date: new Date("2022-04-02"),
-    // time: "Saturday, 6pm onwards",
+    // time: "Saturday, 4pm onwards",
     icon: <WorkIcon />,
   },
   {
