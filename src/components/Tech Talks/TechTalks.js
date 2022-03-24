@@ -88,7 +88,7 @@ const TechTalks = () => {
                   <div className="event-topic">
                     <p>{speaker.topic}</p>
                     <p className="date">{speaker.date}</p>
-                    {speaker.reg && (
+                    {speaker.reg ? (
                       <div className="buttons">
                         <div className="register-btn">
                           <a
@@ -98,6 +98,14 @@ const TechTalks = () => {
                           >
                             Register Here
                           </a>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="buttons">
+                        <div className="register-btn">
+                          <button disabled style={{ padding: "0.35rem" }}>
+                            Coming Soon
+                          </button>
                         </div>
                       </div>
                     )}
