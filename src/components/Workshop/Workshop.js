@@ -63,7 +63,13 @@ const Workshop = () => {
                   library that helps us to add 3D objects in web. We will start
                   from the basics and make a Stack game.
                 </p>
-                {/* <a href="#">REGISTER</a> */}
+                <a
+                  href="https://forms.gle/oJr9x8cVXTdKDrKr7"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Register Here
+                </a>
               </div>
             </li>
           </ul>

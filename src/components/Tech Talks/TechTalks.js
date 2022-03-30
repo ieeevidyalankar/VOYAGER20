@@ -33,6 +33,7 @@ const speakers = [
     date: "3rd April, 2022",
     in: "https://www.instagram.com/mr.aviraldwivedi",
     ln: "https://www.linkedin.com/in/avidwivedi",
+    reg: "https://forms.gle/evs69hyxMSMkVjBa7",
   },
   {
     id: 3,
@@ -43,6 +44,7 @@ const speakers = [
     date: "3rd April, 2022",
     in: "https://www.instagram.com/our_camaraderie/",
     ln: "https://www.linkedin.com/in/jeevantika-lingalwar",
+    reg: "https://forms.gle/9ApWZtt9E6As3EpP9",
   },
   {
     id: 4,
