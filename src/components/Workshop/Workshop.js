@@ -64,11 +64,11 @@ const Workshop = () => {
                   from the basics and make a Stack game.
                 </p>
                 <a
-                  href="https://forms.gle/oJr9x8cVXTdKDrKr7"
+                  href="https://youtu.be/muz_BXjiGCE"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Register Here
+                  Watch now
                 </a>
               </div>
             </li>

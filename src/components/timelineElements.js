@@ -41,6 +41,7 @@ const timelineElements = [
     time: "Sunday, 4pm onwards",
     icon: <WebIcon />,
     reg: "https://forms.gle/e5cu8Aesg87Hib1B9",
+    yt: "https://youtu.be/_GP9MI9X36A",
   },
   {
     id: 6,
@@ -49,6 +50,7 @@ const timelineElements = [
     time: "Saturday, 2pm onwards",
     icon: <WorkIcon />,
     reg: "https://forms.gle/oJr9x8cVXTdKDrKr7",
+    yt: "https://youtu.be/muz_BXjiGCE",
   },
   {
     id: 7,
@@ -57,6 +59,7 @@ const timelineElements = [
     time: "Sunday, 12pm onwards",
     icon: <WebIcon />,
     reg: "https://forms.gle/evs69hyxMSMkVjBa7",
+    yt: "https://youtu.be/SUnUn2VBIX4",
   },
   {
     id: 8,
@@ -65,27 +68,31 @@ const timelineElements = [
     time: "Sunday, 4pm onwards",
     icon: <WebIcon />,
     reg: "https://forms.gle/9ApWZtt9E6As3EpP9",
+    yt: "https://youtu.be/bpd7BGFdywU",
   },
   {
     id: 9,
     title: "Metaverse: Career and Future Webinar",
     date: new Date("2022-04-09"),
-    // time: "Saturday, 3pm onwards",
+    time: "Saturday, 12pm onwards",
     icon: <WebIcon />,
+    reg: "https://forms.gle/dqqFvTHAVmwSbYiL8",
   },
   {
     id: 10,
     title: "Competitive Programming Webinar",
     date: new Date("2022-04-09"),
-    // time: "Saturday, 6pm onwards",
+    time: "Saturday, 4pm onwards",
     icon: <WebIcon />,
+    reg: "https://forms.gle/uSi6DDrxJWh9PDiQ9",
   },
   {
     id: 11,
     title: "Codeager",
     date: new Date("2022-04-10"),
-    // time: "Sunday, 6pm onwards",
+    time: "Sunday, 2pm onwards",
     icon: <CompIcon />,
+    reg: "https://forms.gle/bNxSAoxvAorHZU6x9",
   },
 ];
 

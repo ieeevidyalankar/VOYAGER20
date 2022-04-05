@@ -73,9 +73,15 @@ const Competitions = () => {
               budding as well as experiences programmers to test their skills
               and compete with others.
             </p>
-            {/* <p className="read-more" id="read-more-2">
-              <a href="#">Register</a>
-            </p> */}
+            <p className="read-more" id="read-more-1">
+              <a
+                href="https://forms.gle/bNxSAoxvAorHZU6x9"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Register
+              </a>
+            </p>
           </div>
         </div>
         {/* </div> */}

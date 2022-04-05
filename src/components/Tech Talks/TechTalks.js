@@ -23,6 +23,7 @@ const speakers = [
     fb: "https://www.facebook.com/rapternmn",
     ln: "https://www.linkedin.com/in/naman-bhayani-9b183692",
     reg: "https://forms.gle/e5cu8Aesg87Hib1B9",
+    yt: "https://youtu.be/_GP9MI9X36A",
   },
   {
     id: 2,
@@ -34,6 +35,7 @@ const speakers = [
     in: "https://www.instagram.com/mr.aviraldwivedi",
     ln: "https://www.linkedin.com/in/avidwivedi",
     reg: "https://forms.gle/evs69hyxMSMkVjBa7",
+    yt: "https://youtu.be/SUnUn2VBIX4",
   },
   {
     id: 3,
@@ -45,6 +47,7 @@ const speakers = [
     in: "https://www.instagram.com/our_camaraderie/",
     ln: "https://www.linkedin.com/in/jeevantika-lingalwar",
     reg: "https://forms.gle/9ApWZtt9E6As3EpP9",
+    yt: "https://youtu.be/bpd7BGFdywU",
   },
   {
     id: 4,
@@ -55,6 +58,7 @@ const speakers = [
     date: "9th April, 2022",
     fb: "https://www.facebook.com/navin.manaswi.98",
     ln: "https://www.linkedin.com/in/navin-manaswi-1a708b8",
+    reg: "https://forms.gle/dqqFvTHAVmwSbYiL8",
   },
   {
     id: 5,
@@ -65,6 +69,7 @@ const speakers = [
     date: "9th April, 2022",
     in: "https://www.instagram.com/arshgoyalyt",
     ln: "https://www.linkedin.com/in/arshgoyal",
+    reg: "https://forms.gle/uSi6DDrxJWh9PDiQ9",
   },
 ];
 
@@ -90,7 +95,15 @@ const TechTalks = () => {
                   <div className="event-topic">
                     <p>{speaker.topic}</p>
                     <p className="date">{speaker.date}</p>
-                    {speaker.reg ? (
+                    {speaker.reg && speaker.yt ? (
+                      <div className="buttons">
+                        <div className="register-btn">
+                          <a href={speaker.yt} rel="noreferrer" target="_blank">
+                            Watch now
+                          </a>
+                        </div>
+                      </div>
+                    ) : (
                       <div className="buttons">
                         <div className="register-btn">
                           <a
@@ -98,16 +111,8 @@ const TechTalks = () => {
                             rel="noreferrer"
                             target="_blank"
                           >
-                            Register Here
+                            Register here
                           </a>
-                        </div>
-                      </div>
-                    ) : (
-                      <div className="buttons">
-                        <div className="register-btn">
-                          <button disabled style={{ padding: "0.35rem" }}>
-                            Coming Soon
-                          </button>
                         </div>
                       </div>
                     )}
