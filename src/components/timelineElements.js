@@ -77,22 +77,22 @@ const timelineElements = [
     time: "Saturday, 12pm onwards",
     icon: <WebIcon />,
     reg: "https://forms.gle/dqqFvTHAVmwSbYiL8",
+    yt: "https://youtu.be/YaYhROltzmM",
   },
-  {
-    id: 10,
-    title: "Competitive Programming Webinar",
-    date: new Date("2022-04-09"),
-    time: "Saturday, 4pm onwards",
-    icon: <WebIcon />,
-    reg: "https://forms.gle/uSi6DDrxJWh9PDiQ9",
-  },
+  // {
+  //   id: 10,
+  //   title: "Competitive Programming Webinar",
+  //   date: new Date("2022-04-09"),
+  //   time: "Saturday, 4pm onwards",
+  //   icon: <WebIcon />,
+  //   reg: "https://forms.gle/uSi6DDrxJWh9PDiQ9",
+  // },
   {
     id: 11,
     title: "Codeager",
     date: new Date("2022-04-10"),
     time: "Sunday, 2pm onwards",
     icon: <CompIcon />,
-    reg: "https://forms.gle/bNxSAoxvAorHZU6x9",
   },
 ];
 

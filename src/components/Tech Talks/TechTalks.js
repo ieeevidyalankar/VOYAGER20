@@ -59,18 +59,19 @@ const speakers = [
     fb: "https://www.facebook.com/navin.manaswi.98",
     ln: "https://www.linkedin.com/in/navin-manaswi-1a708b8",
     reg: "https://forms.gle/dqqFvTHAVmwSbYiL8",
+    yt: "https://youtu.be/YaYhROltzmM",
   },
-  {
-    id: 5,
-    img: arshsir,
-    name: "Arsh Goyal",
-    desc: "Senior Software Engineer at Samsung India",
-    topic: "Competitive Programming",
-    date: "9th April, 2022",
-    in: "https://www.instagram.com/arshgoyalyt",
-    ln: "https://www.linkedin.com/in/arshgoyal",
-    reg: "https://forms.gle/uSi6DDrxJWh9PDiQ9",
-  },
+  // {
+  //   id: 5,
+  //   img: arshsir,
+  //   name: "Arsh Goyal",
+  //   desc: "Senior Software Engineer at Samsung India",
+  //   topic: "Competitive Programming",
+  //   date: "9th April, 2022",
+  //   in: "https://www.instagram.com/arshgoyalyt",
+  //   ln: "https://www.linkedin.com/in/arshgoyal",
+  //   reg: "https://forms.gle/uSi6DDrxJWh9PDiQ9",
+  // },
 ];
 
 const TechTalks = () => {
