@@ -1,0 +1,21 @@
+.tl-date-active {
+  color: #333;
+}
+
+.vertical-timeline-element-link {
+  text-decoration: underline;
+  color: #88a6be;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.vertical-timeline-element-link:hover {
+  color: #99aebe;
+}
+
+@media only screen and (max-width: 1169px) {
+  .tl-date-active {
+    color: #fff;
+  }
+}
