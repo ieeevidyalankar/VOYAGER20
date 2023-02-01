@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e2099d91.css",
-    "main.js": "/static/js/main.f7835cd6.js",
-    "static/js/787.989b75f7.chunk.js": "/static/js/787.989b75f7.chunk.js",
+    "main.js": "/static/js/main.a02e05d4.js",
+    "static/js/787.186d3909.chunk.js": "/static/js/787.186d3909.chunk.js",
     "static/media/blue.webp": "/static/media/blue.238de91a8a37df997cba.webp",
     "static/media/fun.webp": "/static/media/fun.dac4698d24b8ebc839e0.webp",
     "static/media/ieee_logo.webp": "/static/media/ieee_logo.6e378934db430dc46f11.webp",
@@ -17,7 +17,6 @@
     "static/media/naman_sir.webp": "/static/media/naman_sir.c1e9d53e045e3841b28b.webp",
     "static/media/funEvents.svg": "/static/media/funEvents.170ec9e7993d2749aae970d348804cb4.svg",
     "static/media/competition.svg": "/static/media/competition.e01f3388db8044dca1cb18b58e77dd52.svg",
-    "static/media/webinar.svg": "/static/media/webinar.4bf4a70727c516d2e4a70821cf18d1f3.svg",
     "static/media/instagram.svg": "/static/media/instagram.ae7d04b4165abb4937be95dfc74f3148.svg",
     "static/media/twitter.svg": "/static/media/twitter.7d840b59647fe7978d8425ed81641713.svg",
     "index.html": "/index.html",
@@ -27,11 +26,11 @@
     "static/media/menu.svg": "/static/media/menu.3dc61aae98d0bb202cf0746398312532.svg",
     "static/media/x.svg": "/static/media/x.9b4d25023d73b01564298a26712586c9.svg",
     "main.e2099d91.css.map": "/static/css/main.e2099d91.css.map",
-    "main.f7835cd6.js.map": "/static/js/main.f7835cd6.js.map",
-    "787.989b75f7.chunk.js.map": "/static/js/787.989b75f7.chunk.js.map"
+    "main.a02e05d4.js.map": "/static/js/main.a02e05d4.js.map",
+    "787.186d3909.chunk.js.map": "/static/js/787.186d3909.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2099d91.css",
-    "static/js/main.f7835cd6.js"
+    "static/js/main.a02e05d4.js"
   ]
 }
