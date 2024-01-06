@@ -1,25 +1,60 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "name": "Voyager | IEEE-VIT",
+    "version": "2",
+    "short_name": "Voyager",
+    "description": "Voyager is the flagship event of Vidyalankar Institute of Technology's IEEE student branch.",
+    "lang": "en-GB",
+    "start_url": ".",
+    "id" : "./",
+    "scope": "./",
+    "theme_color": "#00629B",
+    "background_color": "#00629B",
+    "display_override": ["fullscreen", "minimal-ui"],
+    "display": "standalone",
+    "icons": [
+        {
+          "src": "./icons/favicon-144.png",
+          "sizes": "144x144",
+          "purpose": "maskable"
+        },
+        {
+          "src": "./icons/favicon-192.png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "./icons/favicon-512.png",
+          "sizes": "512x512",
+          "purpose": "maskable"
+        }
+      ],
+    "screenshots": [
+        {
+         "src": "./icons/screen1.jpg",
+          "sizes": "1918x962",
+          "type": "image/jpg",
+          "form_factor": "wide",
+          "label": "Screenshot"
+        },
+        {
+          "src": "./icons/screen2.jpg",
+           "sizes": "1918x962",
+           "type": "image/jpg",
+           "form_factor": "wide",
+           "label": "Screenshot"
+         },
+        {
+          "src": "./icons/screenmob1.png",
+           "sizes": "1082x2402",
+           "type": "image/png",
+           "form_factor": "narrow",
+           "label": "Screenshot"
+         },
+         {
+          "src": "./icons/screenmob2.png",
+           "sizes": "1082x2402",
+           "type": "image/png",
+           "form_factor": "narrow",
+           "label": "Screenshot"
+         }
+    ]
 }
