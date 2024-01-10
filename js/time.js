@@ -14,7 +14,7 @@ function getTimeRemaining(endtime) {
     const days = Math.floor(total / (1000 * 60 * 60 * 24));
     return {
         total,
-        days: days.toString(),
+        days: days <= 9 ? `0${days}` : `${days}`,
         hours: hours <= 9 ? `0${hours}` : `${hours}`,
         mins: minutes <= 9 ? `0${minutes}` : `${minutes}`,
         secs: seconds <= 9 ? `0${seconds}` : `${seconds}`
