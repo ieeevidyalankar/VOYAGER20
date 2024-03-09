@@ -29,19 +29,19 @@
       ],
     "screenshots": [
         {
+        "src": "./icons/screen2.jpg",
+         "sizes": "1918x962",
+         "type": "image/jpg",
+         "form_factor": "wide",
+         "label": "Screenshot"
+        },
+        {
          "src": "./icons/screen1.jpg",
           "sizes": "1918x962",
           "type": "image/jpg",
           "form_factor": "wide",
           "label": "Screenshot"
         },
-        {
-          "src": "./icons/screen2.jpg",
-           "sizes": "1918x962",
-           "type": "image/jpg",
-           "form_factor": "wide",
-           "label": "Screenshot"
-         },
         {
           "src": "./icons/screenmob1.png",
            "sizes": "1082x2402",

@@ -1,76 +1,91 @@
 @font-face {
   font-family: "Crack Man";
   src: url(../fonts/crackman.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "JL";
   src: url(../fonts/JL.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Hangyaku";
   src: url(../fonts/Hangyaku.woff2);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Aria";
   src: url(/fonts/aria.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Bloxat";
   src: url(/fonts/BloxAt.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Bloxbrk";
   src: url(/fonts/BloxBrk.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Harryp";
   src: url(/fonts/HarryP.TTF);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Ironick";
   src: url(/fonts/ironick.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Nicker";
   src: url(/fonts/nicker.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Northwoodhigh";
   src: url(/fonts/NorthwoodHigh.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Rubikscube";
   src: url(/fonts/RubiksCube.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Xitter";
   src: url(/fonts/Xitter.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Yandermo";
   src: url(/fonts/YAndermo.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Avengeance";
   src: url(/fonts/Avengeance.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "DinPro";
   src: url(/fonts/DINProLight.otf);
+  font-display: swap;
 }
 
 html, body {
@@ -102,7 +117,7 @@ html, body {
   font-weight: 100;
 }
 
-.ev-img {
+.ev-img1 {
   width:  auto;
   height: fit-content;
   margin: 4px;
@@ -113,8 +128,26 @@ html, body {
   border: 2px solid var(--black);
 }
 
-.dark-mode .ev-img {
-  border: 2px solid #ffffff44;
+.ev-img2 {
+  width:  auto;
+  height: fit-content;
+  margin: 4px;
+  /*background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/icons/ev-default.jpg);*/
+  background: transparent;
+  background-size: cover;
+  border-radius: 4px;
+  border: 2px solid var(--black);
+}
+
+.ev-img3 {
+  width:  auto;
+  height: fit-content;
+  margin: 4px;
+  /*background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/icons/ev-default.jpg);*/
+  background: transparent;
+  background-size: cover;
+  border-radius: 4px;
+  border: 2px solid var(--black);
 }
 
 .sp-image {
@@ -180,7 +213,7 @@ h3, h2, h1, p {
 .dark-mode .clock section p.active {
     color: #489aff;
     text-shadow: 0px 0px 20px #3c5ceb;
-    font-weight: 500;
+    font-weight: 600;
 }
 #btn {
   background: transparent;
@@ -264,16 +297,16 @@ h3, h2, h1, p {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   backdrop-filter: blur(1px);
-  transition: ease-in 0.5s all;
+  transition: ease-in 0.2s all;
 }
 
 /* Modal Content */
 .modal-content {
   background: radial-gradient(circle, var(--blue), #28739f, var(--blue));
   margin: auto;
-  padding: 4rem;
-  padding-top: 0;
+  padding: 16px;
   width: 80%;
+  border: 1px solid gold;
   border-radius: 10px;
   font-size: 1.2rem;
   font-family: 'DinPro', 'Segoe UI', sans-serif;
@@ -325,7 +358,7 @@ h3, h2, h1, p {
 }
 
 .nav ul {
-  padding: 0 4px;
+  padding: 0 2px;
 }
 
 .nav li {
@@ -335,15 +368,14 @@ h3, h2, h1, p {
 
 .nav li a {
   color: white;
-  font-size: 1.25rem;
+  font-size: 20px;
   text-decoration: none;
   z-index: 10010;
-  transition: 0.5s ease;
 }
 
 .nav li a:hover {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 .menu-bg, #menu {
@@ -356,7 +388,7 @@ h3, h2, h1, p {
   z-index: 10000;
   width: 0;
   height: 0;
-  margin: 40px;
+  margin: 30px 0 20px 20px;
   background: radial-gradient(circle, #68c8ff, var(--blue));
   border-radius: 50px;
   transition: 0.5s ease;
@@ -564,7 +596,7 @@ header {
 
 .sect-head {
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
@@ -583,9 +615,122 @@ html::-webkit-scrollbar-thumb {
   border-radius: 4px;
 }
 
-.contact-sect {
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+fieldset {
+  text-align: left;
+  border: none;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+option {
+  color: white;
+  background-color: var(--blue);
+}
+
+::placeholder {
+  color: #fffa;
+  text-align: center;
+}
+
+select, input {
+  background: transparent;
+  color: white;
   font-size: 1.2rem;
-  font-weight: 200;
+  width: 60vw;
+  height: 2rem;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.dark-mode select ,.dark-mode input {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  height: 2rem;
+  padding: 2px;
+}
+
+.submit-btn {
+  padding: 10px;
+  width: 128px;
+  height: 64px;
+  transition: ease-in 0.2s all;
+}
+
+.submit-btn:hover {
+  scale: 110%;
+  color: var(--blue);
+  background: white;
+}
+
+.dark-mode .submit-btn {
+  padding: 10px;
+  width: 128px;
+  height: 64px;
+  transition: ease-in 0.2s all;
+}
+
+#fs-frm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: #00629B88;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#contactform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #00629BAA;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.succ {
+  padding: 0;
+  margin: 0;
+  background-image: url(/icons/bg.jpeg);
+}
+
+.success {
+  width: 60%;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+  background-color: #ffffffaa;
+  backdrop-filter: blur(1px);
+  height: 400px;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 #footer {
@@ -723,5 +868,338 @@ html::-webkit-scrollbar-thumb {
     overflow: hidden;
     z-index: 9999;
     color: #ffffff;
+  }
+}
+
+.ag-format-container {
+  margin: 0 auto;
+  text-align: left;
+  text-decoration: none;
+}
+.ag-format-container a {
+  text-decoration: none;
+  color: inherit;
+}
+.ag-courses_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  justify-content: center;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.ag-courses_item {
+  -ms-flex-preferred-size: calc(33.33333% - 30px);
+  flex-basis: calc(33.33333% - 30px);
+  margin: 0 15px 30px;
+  overflow: hidden;
+  border-radius: 6px 24px;
+  border: 2px dashed black;
+}
+
+.dark-mode .ag-courses_item {
+  border: 2px dashed #ffffff;
+}
+.ag-courses-item_link {
+  display: block;
+  padding: 1rem;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+}
+.ag-courses-item_link:hover, .ag-courses-item_link:hover .ag-courses-item_date {
+  text-decoration: none;
+}
+.ag-courses-item_link:hover .ag-courses-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+.ag-courses-item_title {
+  min-height: 87px;
+  margin: 0 0 25px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 24px;
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date-box {
+  font-size: 18px;
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date {
+  font-weight: bold;
+  color: var(--blue);
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #00629B44;
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+  background-color: #9f289344;
+}
+.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+  background-color: #0073ff44;
+}
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+  background-color: #64e2a544;
+}
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+  background-color: #3eb8cd44;
+}
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+  background-color: #c289f444;
+}
+@media only screen and (max-width: 979px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+  .ag-courses-item_title {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .ag-courses-item_title {
+    min-height: 72px;
+    line-height: 1;
+    font-size: 24px;
+  }
+  .ag-courses-item_link {
+    padding: 22px 40px;
+  }
+  .ag-courses-item_date-box {
+    font-size: 16px;
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline ul {
+  background: transparent;
+  padding: 0;
+  color: #ffffff;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: radial-gradient(#be0a32, #00629B);
+}
+
+.timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  z-index: 1;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 300px;
+  padding: 15px;
+  background: var(--blue);
+  border-radius: 6px;
+}
+
+.timeline ul li div::before {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent var(--blue) transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent var(--blue);
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background 0.5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: var(--blue);
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent var(--blue) transparent transparent;
+  }
+}
+
+
+/* EXTRA/CLIP PATH STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline-clippy ul li::after {
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+}
+
+.timeline-rhombus ul li::after {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.timeline-rhombus ul li div::before {
+  bottom: 12px;
+}
+
+.timeline-star ul li::after {
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.timeline-heptagon ul li::after {
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+
+.timeline-infinite ul li::after {
+  animation: scaleAnimation 2s infinite;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.25);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
   }
 }

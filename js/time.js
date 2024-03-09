@@ -4,17 +4,19 @@ const mins = document.querySelector('.mins');
 const secs = document.querySelector('.secs');
 
 // Set your target date here (year, month, day)
-const targetDate = new Date(2024, 0, 20);  // January 1, 2024
+const targetDate = new Date(2024, 2, 11, 13, 15);
 
 function getTimeRemaining(endtime) {
-    const total = Date.parse(endtime) - Date.parse(new Date());
-    const seconds = Math.floor((total / 1000) % 60);
-    const minutes = Math.floor((total / 1000 / 60) % 60);
-    const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
-    const days = Math.floor(total / (1000 * 60 * 60 * 24));
+    var total = Date.parse(endtime) - Date.parse(new Date());
+    total = total / 1000;
+    const seconds = Math.floor(total % 60);
+    const minutes = Math.floor((total / 60) % 60);
+    const hours = Math.floor((total / ( 60 * 60)) % 24);
+    const days = Math.floor(total / ( 60 * 60 * 24));
     return {
         total,
-        days: days <= 9 ? `0${days}` : `${days}`,
+        //days: days.toString(),
+        days: days <= 9 ? `0${days}` : `${days}`, 
         hours: hours <= 9 ? `0${hours}` : `${hours}`,
         mins: minutes <= 9 ? `0${minutes}` : `${minutes}`,
         secs: seconds <= 9 ? `0${seconds}` : `${seconds}`

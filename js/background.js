@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
   
   const resize = function () {
     canvasWidth = canvas.width = window.innerWidth * 0.95;
-    canvasHeight = canvas.height = window.innerHeight * 2;
+    canvasHeight = canvas.height = window.innerHeight * 1.5;
     centerX = canvasWidth * 0.5;
     centerY = canvasHeight * 0.5;
     context = canvas.getContext("2d");
@@ -241,3 +241,36 @@ if ('serviceWorker' in navigator) {
 } else {
   console.log('Service workers are not supported (Mozilla nonsense).');
 }
+
+(function () {
+  "use strict";
+
+  // define variables
+  var items = document.querySelectorAll(".timeline li");
+
+  // check if an element is in viewport
+  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
+      }
+    }
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+})();
