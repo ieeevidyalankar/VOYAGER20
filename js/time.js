@@ -4,7 +4,7 @@ const mins = document.querySelector('.mins');
 const secs = document.querySelector('.secs');
 
 // Set your target date here (year, month, day)
-const targetDate = new Date(2024, 2, 11, 13, 15);
+const targetDate = new Date(2024, 2, 13, 15, 45);
 
 function getTimeRemaining(endtime) {
     var total = Date.parse(endtime) - Date.parse(new Date());
